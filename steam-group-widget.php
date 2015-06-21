@@ -3,7 +3,7 @@
 Plugin Name: Steam Community Group Widget
 Plugin URI: http://panotlet.tk/steam-group-widget/
 Description: Show your group like a widget!
-Version: 1.00
+Version: 1.0.1
 Author: Paweł Otlewski
 Author URI: http://panotlet.tk/
 */
