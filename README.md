@@ -3,8 +3,8 @@ Contributors: otlet
 Donate link: http://panotlet.tk
 Tags: steam, community, group, widget
 Requires at least: 3.0.1
-Tested up to: 4.1.1
-Stable tag: 1.0
+Tested up to: 4.2.2
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,6 +23,9 @@ plugin that adds a widget with a group of Steam.
 5. Save
 
 == Changelog ==
+
+= 1.0.1 =
+* Change table design
 
 = 1.0 =
 * Initial release

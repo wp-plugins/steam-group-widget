@@ -53,20 +53,26 @@ class otletsg_widget extends WP_Widget {
 		echo '
 		<table>
 			<tr>
-				<td rowspan="5" width="30%"><img src="'.$xml->groupDetails->avatarFull.'" width="100%">   </td>
-				<td><strong>Group Name:</strong> '.$xml->groupDetails->groupName.'</td>
+				<th colspan="2"><img src="'.$xml->groupDetails->avatarFull.'" width="100%"></th>
 			</tr>
 			<tr>
-				<td><strong>Member count:</strong> '.$xml->groupDetails->memberCount.'</td>
+				<td>Group Name</td>
+				<td>'.$xml->groupDetails->groupName.'</td>
 			</tr>
 			<tr>
-				<td><strong>In Game:</strong> '.$xml->groupDetails->membersInGame.'</td>
+				<td>Member Count</td>
+				<td>'.$xml->groupDetails->memberCount.'</td>
 			</tr>
 			<tr>
-				<td><strong>Online:</strong> '.$xml->groupDetails->membersOnline.'</td>
+				<td>In Game</td>
+				<td>'.$xml->groupDetails->membersInGame.'</td>
 			</tr>
 			<tr>
-				<td><a href="' . $groupURL . '">Show this group</a></td>
+				<td>Online</td>
+				<td>'.$xml->groupDetails->membersOnline.'</td>
+			</tr>
+			<tr>
+				<td colspan="2"><a href="' . $groupURL . '">Show this group</a></td>
 			</tr>
 		</table>';
 		echo $args['after_widget'];
